@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import VW from '../../assets/Volkswagen_logo_2019.svg';
+import LaLiga from '../../assets/laliga.png';
+import Kobe from '../../assets/kobe.jpg';
+import Genero from '../../assets/generos.JPG';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,28 +11,28 @@ function Projects() {
       <h1 className="sectionTitle">Proyectos</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={VW}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          h3="Transporte de Personal VW"
+          p="Dashboard Power Bi"
         />
         <ProjectCard
-          src={freshBurger}
+          src={LaLiga}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          h3="Simulacion La Liga española"
+          p="Simulacion Montecarlo Python"
         />
         <ProjectCard
-          src={hipsster}
+          src={Kobe}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          h3="Kobe Bryant Selection Shot"
+          p="Power BI Analisys"
         />
         <ProjectCard
-          src={fitLift}
+          src={Genero}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          h3="Clasificación por Género Musical"
+          p="Red Convolucional Python "
         />
       </div>
     </section>
