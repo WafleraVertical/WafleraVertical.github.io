@@ -12,25 +12,25 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={VW}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com"
           h3="Transporte de Personal VW"
           p="Dashboard Power Bi"
         />
         <ProjectCard
           src={LaLiga}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com"
           h3="Simulacion La Liga española"
           p="Simulacion Montecarlo Python"
         />
         <ProjectCard
           src={Kobe}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/"
           h3="Kobe Bryant Selection Shot"
           p="Power BI Analisys"
         />
         <ProjectCard
           src={Genero}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com"
           h3="Clasificación por Género Musical"
           p="Red Convolucional Python "
         />
