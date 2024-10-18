@@ -32,7 +32,6 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Scikit-Learn" />
         <SkillList src={checkMarkIcon} skill="Pyspark" />
         <SkillList src={checkMarkIcon} skill="Git" />
-        <SkillList src={checkMarkIcon} skill="Bootstrap" />
         <SkillList src={checkMarkIcon} skill="Google Cloud" />
         <SkillList src={checkMarkIcon} skill="Azure" />
       </div>

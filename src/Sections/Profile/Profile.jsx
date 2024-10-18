@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/hero-img.png';
+import profileImg from '../../assets/profile-img.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import githubLight from '../../assets/github-light.svg';
@@ -17,11 +17,11 @@ function Hero() {
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
   return (
-    <section id="hero" className={styles.container}>
+    <section id="profile" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img 
           className={styles.hero} 
-          src={heroImg}
+          src={profileImg}
           alt="Profile picture of Eduardo Polaco "
           />
           <img 
@@ -38,8 +38,9 @@ function Hero() {
           Polaco Romero
         </h1>
         <h2>Computer Science Engineer</h2>
-        <h2>Data Analyst</h2>
-        <h2>Data Engineer</h2>
+        <h2>Data Analyst,Data Engineer</h2>
+        <h2>Azure Ai Engineer Asossiate</h2>
+
         <span>
 
           <a href="https://github.com/WafleraVertical" target="_blank">
