@@ -1,4 +1,4 @@
-import styles from './HeroStyles.module.css';
+import styles from './ProfileStyles.module.css';
 import profileImg from '../../assets/profile-img.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
@@ -9,7 +9,7 @@ import linkedinDark from '../../assets/linkedin-dark.svg';
 import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
-function Hero() {
+function Profile() {
   const {theme,toggleTheme}= useTheme();
 
   const themeIcon = theme === 'light' ? sun : moon;
@@ -20,7 +20,7 @@ function Hero() {
     <section id="profile" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img 
-          className={styles.hero} 
+          className={styles.profile} 
           src={profileImg}
           alt="Profile picture of Eduardo Polaco "
           />
@@ -63,4 +63,4 @@ function Hero() {
   );
 }
 
-export default Hero
+export default Profile
