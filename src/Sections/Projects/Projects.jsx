@@ -2,7 +2,7 @@ import styles from './ProjectsStyles.module.css';
 import VW from '../../assets/Volkswagen_logo_2019.svg';
 import Pinguino from '../../assets/pinguino-dj.png';
 import rana from '../../assets/frogjump.png';
-import Genero from '../../assets/generos.JPG';
+import Genero from '../../assets/generos.jpg';
 import Azure from '../../assets/azure_ingeniero.png';
 import ProjectCard from '../../common/ProjectCard';
 
