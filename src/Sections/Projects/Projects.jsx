@@ -1,8 +1,9 @@
 import styles from './ProjectsStyles.module.css';
 import VW from '../../assets/Volkswagen_logo_2019.svg';
-import LaLiga from '../../assets/laliga.png';
-import Kobe from '../../assets/kobe.jpg';
+import Pinguino from '../../assets/pinguino-dj.png';
+import rana from '../../assets/frogjump.png';
 import Genero from '../../assets/generos.JPG';
+import Azure from '../../assets/azure_ingeniero.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -17,23 +18,29 @@ function Projects() {
           p="Dashboard Power Bi"
         />
         <ProjectCard
-          src={LaLiga}
-          link="https://github.com"
-          h3="Simulacion La Liga española"
-          p="Simulacion Montecarlo Python"
+          src={Pinguino}
+          link="https://github.com/WafleraVertical/Botnice-Discord"
+          h3="BotNice"
+          p="Bot de Discord con Python"
         />
         <ProjectCard
-          src={Kobe}
-          link="https://github.com/"
-          h3="Kobe Bryant Selection Shot"
-          p="Power BI Analisys"
+          src={rana}
+          link="https://github.com/WafleraVertical/FrogJump"
+          h3="FrogJump"
+          p="Demo de videojuego de Plataformas en Python"
         />
         <ProjectCard
           src={Genero}
-          link="https://github.com"
+          link="https://github.com/WafleraVertical/Clasificaci-n-Musical-por-Genero"
           h3="Clasificación por Género Musical"
           p="Red Convolucional Python "
         />
+        <ProjectCard
+        src={Azure}
+        link="https://github.com/WafleraVertical/AI-Azure-Implementations"
+        h3="Fun Implementations Azure"
+        p="Projecto de React con la API de Azure"
+      />
       </div>
     </section>
   );

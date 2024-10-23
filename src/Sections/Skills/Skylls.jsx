@@ -16,6 +16,7 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Tableu" />
         <SkillList src={checkMarkIcon} skill="Power BI" />
         <SkillList src={checkMarkIcon} skill="Excel" />
+        <SkillList src={checkMarkIcon} skill="JavaScript" />
     
       </div>
       <hr />
