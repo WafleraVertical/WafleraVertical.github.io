@@ -4,6 +4,7 @@ import Pinguino from '../../assets/pinguino-dj.png';
 import rana from '../../assets/frogjump.png';
 import Genero from '../../assets/generos.jpg';
 import Azure from '../../assets/azure_ingeniero.png';
+import spotify from '../../assets/dash.jpg';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -41,6 +42,12 @@ function Projects() {
         h3="Fun Implementations Azure"
         p="Projecto de React con la API de Azure"
       />
+      <ProjectCard
+          src={spotify}
+          link="https://github.com/WafleraVertical/Spotify-2023-Analytics"
+          h3="Spotify"
+          p="Dashboard de Analisis sobre lo mas escuchado en 2023"
+        />
       </div>
     </section>
   );
